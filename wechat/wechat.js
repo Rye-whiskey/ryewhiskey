@@ -18,7 +18,7 @@ var WeChat = function(config){
 	this.appScrect = config.appScrect;
 	this.apiDomain = config.apiDomain;
 	this.apiURL= config.apiURL;
-}
+
 
 /**
  *用于处理https Get请求方法

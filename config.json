@@ -3,9 +3,9 @@
 	"appid":"wxeab84a7432186503",
 	"appScrect":"39c7e0c19b7c807ffdb7e9c5f8ca4c4f",
 	"encodingAESKey":"8PyrtKcogDHfqQdm0CXOdkP0JzLPWD3oqTRj0L3BwEM",
-	"checkSignature":true,
 	"apiDomain":"https://api.weixin.qq.com/",
     "apiURL":{
         "accessTokenApi":"%scgi-bin/token?grant_type=client_credential&appid=%s&secret=%s",
         "createMenu":"%scgi-bin/menu/create?access_token=%s"
+    }
 }

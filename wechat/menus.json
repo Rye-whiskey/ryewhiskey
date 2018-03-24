@@ -1,7 +1,7 @@
 {
      "button":[
         {	
-          "type":"suanfa"
+          "type":"suanfa",
           "name":"算法目录",
           "sub_button":[{
           		"type":"click1",
