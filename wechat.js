@@ -1,5 +1,3 @@
-const express = require('express')
-const app = express()
 var wechat = require('wechat');
 var config = {
 	token:'sjl943873',
@@ -36,5 +34,3 @@ app.use('/wechat',wechat(config,function(req,res,next){
 	
 
 }));
-
-app.listen(80)
