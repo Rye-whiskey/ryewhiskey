@@ -11,7 +11,7 @@ accessTokenJson = require('./access_token'), //引入本地存储的 access_toke
          msg = require('./msg'),//引入消息处理模块
 CryptoGraphy = require('./cryptoGraphy'); //微信消息加解密模块
 
-var Wechat = function(config){
+var WeChat = function(config){
 	this.config=config;
 	this.token=config.token;
 	this.appID=config.appID;
