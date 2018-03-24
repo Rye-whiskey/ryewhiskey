@@ -1,0 +1,42 @@
+{
+     "button":[
+        {	
+          "type":"suanfa"
+          "name":"算法目录",
+          "sub_button":[{
+          		"type":"click1",
+          		"name":"初级算法",
+          		"key":"cjsuanfa"
+          },{
+          		"type":"click2",
+          		"name":"中级算法",
+          		"key":"zjsuanfa"
+          },{
+          		"type":"click3",
+          		"name":"高级算法",
+          		"key":"gjsuanfa"
+          }]
+        },
+        {	
+          "type":"click",
+          "name":"今日推荐",
+          "key":"today_recommend"
+        },
+        {	
+          "name":"娱乐",
+          "sub_button":[{
+               "type": "scancode_waitmsg", 
+               "name": "扫一扫",
+               "key": "scancode"
+          },{
+               "type": "pic_sysphoto", 
+               "name": "系统拍照发图",
+                "key": "take_photo"
+          },{
+            "type": "location_select", 
+            "name": "发送位置",
+            "key": "send_location"
+        }]
+        }
+     ]
+}
