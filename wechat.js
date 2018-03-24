@@ -1,9 +1,11 @@
+const express = require('express')
+const app = express()
 var wechat = require('wechat');
 var config = {
 	token:'sjl943873',
 	appid:'wxeab84a7432186503',
 	encodingAESKey:'8PyrtKcogDHfqQdm0CXOdkP0JzLPWD3oqTRj0L3BwEM',
-	checkSignature:ture
+	checkSignature:true
 };
 app.use(express.query());
 app.use('/wechat',wechat(config,function(req,res,next){
@@ -34,3 +36,5 @@ app.use('/wechat',wechat(config,function(req,res,next){
 	
 
 }));
+
+app.listen(80)
